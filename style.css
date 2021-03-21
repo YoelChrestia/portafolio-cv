@@ -364,6 +364,10 @@ p{
     margin-bottom: 2rem;
 }
 
+.img-about {
+    height: 400px;
+}
+
 .contact-card{
     margin: 1rem auto;
     padding: 1rem;
@@ -449,10 +453,12 @@ p{
     transition: all 0.5s ease-in-out;
 }
 
+
 .portfolio-card:hover .portfolio-card-info{
     opacity: 1;
     pointer-events: auto;
 }
+
 
 .portfolio-card-info > div{
     padding: 1rem;
@@ -460,6 +466,7 @@ p{
     width: 100%;
     height: 100%;
 }
+
 
 .service-card{
     margin: 1rem auto;
