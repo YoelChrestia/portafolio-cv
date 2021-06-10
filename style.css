@@ -313,7 +313,7 @@ p{
 }
 
 .section{
-    padding: 2rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .section-title{
@@ -341,7 +341,7 @@ p{
 @media screen and (min-width: 1024px){
     .full-lg-screen {
         width: 100%;
-        min-height: 100vh;
+        min-height: 85vh;
     }
     
     .text-lg-center{
@@ -364,8 +364,13 @@ p{
     margin-bottom: 2rem;
 }
 
+.about-first-article{
+    display: flex;
+    justify-content: center;
+}
+
 .img-about {
-    height: 400px;
+    height: 350px;
 }
 
 .contact-card{
@@ -478,6 +483,10 @@ p{
     margin-bottom: 1.25rem;
 }
 
+.service-card img:hover{
+    filter: grayscale(100%);
+}
+
 .service-card h3{
     color: var(--title-color);
 }
@@ -564,5 +573,9 @@ p{
 
     .portfolio .section-title{
         grid-column: span 3;
+    }
+
+    .portfolio-card-info{
+        opacity: 0;
     }
 }
